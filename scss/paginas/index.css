@@ -15,4 +15,22 @@
 
 #shopSectionContainer {
   grid-area: shopWithUs;
+  display: grid;
+  grid-template-areas: "titleShop titleShop titleShop" "shopWomen shopMen shopKids";
+}
+
+#shopWomenFlexContainer {
+  grid-area: shopWomen;
+}
+
+#shopMenFlexContainer {
+  grid-area: shopMen;
+}
+
+#shopKidsFlexContainer {
+  grid-area: shopKids;
+}
+
+#shopSectionTitle {
+  grid-area: titleShop;
 }/*# sourceMappingURL=index.css.map */
