@@ -1,0 +1,20 @@
+#presentationContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+#mainImageContainer {
+  width: 30%;
+  height: auto;
+}
+
+#mainImage {
+  width: 100%;
+  height: auto;
+}
+
+#presentationContainer {
+  width: 40%;
+}/*# sourceMappingURL=index.css.map */
