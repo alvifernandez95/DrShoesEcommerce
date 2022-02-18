@@ -1,0 +1,8 @@
+$colors: (
+    fontColor: whitesmoke,/*Font color*/
+    borderColor: whitesmoke,/*Border color*/
+    backgroundColor: #96A0BA,/*Color Principal*/
+    mainColor: #c2abc7,/*Color secundario*/
+    mainGradient: linear-gradient(228deg, rgba(2,0,36,1) 0%, rgba(141,209,250,1) 50%, rgba(18,43,59,1) 100%),/*Degrade*/
+    hover-primario: darken(#D067E6, 20)
+);

@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+span {
+  color: whitesmoke;
+}
+
 .gridContainer {
   display: grid;
   grid-template-areas: "mainImage introduction" "shopWithUs shopWithUs";
@@ -65,4 +69,8 @@ header {
 
 #logoDrShoe {
   filter: invert(14%) sepia(100%) saturate(2556%) hue-rotate(237deg) brightness(113%) contrast(163%);
+}
+
+.nav {
+  margin-right: 2%;
 }/*# sourceMappingURL=main.css.map */
