@@ -4,21 +4,23 @@
   padding: 0;
 }
 
+.gridContainer {
+  display: grid;
+  grid-template-areas: "mainImage introduction" "shopWithUs shopWithUs";
+}
+
 #presentationContainer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
+  grid-area: introduction;
+  width: 50%;
 }
 
 #mainImageContainer {
-  width: 50%;
-  height: auto;
+  grid-area: mainImage;
+  width: 40%;
 }
 
-#mainImage {
-  width: 100%;
-  height: auto;
+#shopSectionContainer {
+  grid-area: shopWithUs;
 }
 
 header {

@@ -1,20 +1,18 @@
+.gridContainer {
+  display: grid;
+  grid-template-areas: "mainImage introduction" "shopWithUs shopWithUs";
+}
+
 #presentationContainer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
+  grid-area: introduction;
+  width: 50%;
 }
 
 #mainImageContainer {
-  width: 30%;
-  height: auto;
-}
-
-#mainImage {
-  width: 100%;
-  height: auto;
-}
-
-#presentationContainer {
+  grid-area: mainImage;
   width: 40%;
+}
+
+#shopSectionContainer {
+  grid-area: shopWithUs;
 }/*# sourceMappingURL=index.css.map */
