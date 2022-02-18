@@ -12,17 +12,25 @@
 #presentationContainer {
   grid-area: introduction;
   width: 50%;
+  margin-left: 5%;
 }
 
 #mainImageContainer {
   grid-area: mainImage;
-  width: 40%;
+  width: 50%;
+  margin-left: 3%;
+}
+
+#mainImage {
+  width: 200%;
 }
 
 #shopSectionContainer {
   grid-area: shopWithUs;
   display: grid;
   grid-template-areas: "titleShop titleShop titleShop" "shopWomen shopMen shopKids";
+  margin-left: 2%;
+  margin-bottom: 2%;
 }
 
 #shopWomenFlexContainer {
@@ -39,6 +47,12 @@
 
 #shopSectionTitle {
   grid-area: titleShop;
+  margin-top: 2%;
+}
+
+#kidsShoesImage {
+  height: 70%;
+  width: 100%;
 }
 
 header {
@@ -46,4 +60,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(228deg, #020024 0%, #8dd1fa 50%, #122b3b 100%);
+}
+
+#logoDrShoe {
+  filter: invert(14%) sepia(100%) saturate(2556%) hue-rotate(237deg) brightness(113%) contrast(163%);
 }/*# sourceMappingURL=main.css.map */

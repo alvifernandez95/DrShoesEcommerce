@@ -3,5 +3,9 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center; 
+    background:linear-gradient(228deg, rgba(2,0,36,1) 0%, rgba(141,209,250,1) 50%, rgba(18,43,59,1) 100%); 
 };
 
+#logoDrShoe{
+    filter: invert(14%) sepia(100%) saturate(2556%) hue-rotate(237deg) brightness(113%) contrast(163%);
+}
