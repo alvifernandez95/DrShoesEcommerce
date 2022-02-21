@@ -1,3 +1,8 @@
+/*Font color*/
+/*Border color*/
+/*Color Principal*/
+/*Color secundario*/
+/*Degrade*/
 /*Reset padding and margin for all files. */
 * {
   margin: 0;
@@ -6,6 +11,10 @@
 
 span {
   color: whitesmoke;
+}
+
+body {
+  background-color: #96A0BA;
 }
 
 .gridContainer {
