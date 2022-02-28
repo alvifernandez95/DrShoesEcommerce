@@ -91,6 +91,11 @@ header {
   margin-right: 2%;
 }
 
+.fs-4 {
+  font-family: "Pacifico", cursive;
+  font-size: 200% !important;
+}
+
 footer {
   color: whitesmoke;
   background-color: #7D7B7D;
