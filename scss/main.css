@@ -15,6 +15,13 @@ span {
 
 body {
   background-color: #96A0BA;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
 }
 
 .gridContainer {
@@ -82,4 +89,22 @@ header {
 
 .nav {
   margin-right: 2%;
+}
+
+footer {
+  color: whitesmoke;
+  background-color: #7D7B7D;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: whitesmoke;
+}
+
+.firstColumnFooter {
+  margin-left: 2%;
 }/*# sourceMappingURL=main.css.map */
